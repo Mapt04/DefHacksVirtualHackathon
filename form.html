@@ -30,7 +30,7 @@
 
 	<div class="container-contact100" style="background-image: url('images/bg-01.jpg');">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" action='submitted.html'>
 				<span class="contact100-form-title">
 				Please fill in your current status
 				</span>
@@ -61,28 +61,28 @@
                 <div class="wrap-input100 rs1-wrap-input100 validate-input">
                         <!-- <span class="label-input100">Enter your email *</span> -->
                         <!-- <input class="input100" type="text" name="email" placeholder="Enter your email"> -->
-                        <br><legend>Select all previous conditions that apply:</legend><br>
-
-                        <input type="checkbox" name="asthma" id="asthma"/><label for="asthma">Chronic Lung Disease or Moderate to Severe Asthma</label><br>
+                        <legend>Select all previous conditions that apply:</legend><br>
+                        <input type="checkbox" name="asthma" id="asthma"/><label for="asthma">Chronic Lung Disease or Moderate Asthma</label><br>
                         <input type="checkbox" name="heart" id="heart"/><label for="heart">Serious heart condition</label><br>
                         <input type="checkbox" name="immunocompromise" id="immunocompromise"/><label for="immunocompromise">Immunocompromise</label><br>
                         <input type="checkbox" name="obesity" id="obesity"/><label for="obesity">Severe Obesity</label><br>
                         <input type="checkbox" name="diabetes" id="diabetes"/><label for="diabetes">Diabetes</label><br>
-                        <input type="checkbox" name="kidney" id="kidney"/><label for="kidney">Chronic Kidney Disease Undergoing Dialysis</label><br>
+                        <input type="checkbox" name="kidney" id="kidney"/><label for="kidney">Chronic Kidney Disease</label><br>
                         <input type="checkbox" name="liver" id="liver"/><label for="liver">Liver Disease</label><br>
                     
                     </div>
 
-                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Answer is required">
                             <!-- <span class="label-input100">Tell us your name *</span> -->
                             <!-- <input class="input100" type="text" name="name" placeholder="Enter your name"> -->
                             <label for="age">Age:</label><br>
-                            <input type="number" id="age" name="age" min="0" max="130" class="input100"><br><br>
-                            <label for="start">How long ago symptoms started (days):</label><br>
-                            <input type="number" id="start" name="start" min="0" class="input100"><br><br>
-        
-        
+                            <input type="number" id="age" name="age" min="0" max="130" class="input100"><br><br>        
                         </div>
+
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Answer is required">
+                        <label for="start">How long ago symptoms started (days):</label><br>
+                        <input type="number" id="start" name="start" min="0" class="input100"><br><br>
+                    </div>
 
 
 				<div class="container-contact100-form-btn">
