@@ -1,4 +1,107 @@
-<form action="submitted.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V11</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+
+
+	<div class="container-contact100" style="background-image: url('images/bg-01.jpg');">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+				Please fill in your current status
+				</span>
+
+
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
+					<!-- <span class="label-input100">Enter your email *</span> -->
+                    <!-- <input class="input100" type="text" name="email" placeholder="Enter your email"> -->
+                    <legend>Select all symptoms that apply:</legend><br>
+
+                    <input type="checkbox" name="movement_loss" id="movement_loss"/><label for="movement_loss">Loss of Movement</label><br>
+                    <input type="checkbox" name="speech_loss" id="speech_loss"/><label for="speech_loss">Loss of Speech</label><br>
+                    <input type="checkbox" name="shortness_of_breath" id="shortness_of_breath"/><label for="shortness_of_breath">Difficulty Breathing or Shortness of Breath</label><br />
+                    <input type="checkbox" name="chest_pain" id="chest_pain"/><label for="chest_pain">Chest Pain or Pressure</label><br>
+                    <input type="checkbox" name="cough" id="cough"/><label for="cough">Dry Cough</label><br>
+                    <input type="checkbox" name="fever" id="fever"/><label for="fever">Fever</label><br>
+                    <input type="checkbox" name="tiredness" id="tiredness"/><label for="tiredness">Tiredness</label><br>
+                    <input type="checkbox" name="headache" id="headache"/><label for="headache">Headache</label><br>
+                    <input type="checkbox" name="diarrhea" id="diarrhea"/><label for="diarrhea">Diarrhea</label><br>
+                    <input type="checkbox" name="throat" id="throat"/><label for="throat">Sore Throat</label><br>
+                    <input type="checkbox" name="conjunctivitis" id="conjunctivitis"/><label for="conjunctivitis">Conjunctivitis</label><br>
+                    <input type="checkbox" name="rash" id="rash"/><label for="rash">Rash on Skin</label><br>
+                    <input type="checkbox" name="discolouration" id="discolouration"/><label for="discolouration">Discolouration of Fingers or Toes</label><br>
+                </div>
+                
+
+                <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                        <!-- <span class="label-input100">Enter your email *</span> -->
+                        <!-- <input class="input100" type="text" name="email" placeholder="Enter your email"> -->
+                        <br><legend>Select all previous conditions that apply:</legend><br>
+
+                        <input type="checkbox" name="asthma" id="asthma"/><label for="asthma">Chronic Lung Disease or Moderate to Severe Asthma</label><br>
+                        <input type="checkbox" name="heart" id="heart"/><label for="heart">Serious heart condition</label><br>
+                        <input type="checkbox" name="immunocompromise" id="immunocompromise"/><label for="immunocompromise">Immunocompromise</label><br>
+                        <input type="checkbox" name="obesity" id="obesity"/><label for="obesity">Severe Obesity</label><br>
+                        <input type="checkbox" name="diabetes" id="diabetes"/><label for="diabetes">Diabetes</label><br>
+                        <input type="checkbox" name="kidney" id="kidney"/><label for="kidney">Chronic Kidney Disease Undergoing Dialysis</label><br>
+                        <input type="checkbox" name="liver" id="liver"/><label for="liver">Liver Disease</label><br>
+                    
+                    </div>
+
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
+                            <!-- <span class="label-input100">Tell us your name *</span> -->
+                            <!-- <input class="input100" type="text" name="name" placeholder="Enter your name"> -->
+                            <label for="age">Age:</label><br>
+                            <input type="number" id="age" name="age" min="0" max="130" class="input100"><br><br>
+                            <label for="start">How long ago symptoms started (days):</label><br>
+                            <input type="number" id="start" name="start" min="0" class="input100"><br><br>
+        
+        
+                        </div>
+
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							Submit
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+
+
+
+<!-- <form action="submitted.html">
 
 
     <label for="age">Age:</label><br>
@@ -33,4 +136,29 @@
     <input type="checkbox" name="liver" id="liver"/><label for="liver">Liver Disease</label><br>
 
     <br><input type="submit" value="Done">
-</form>
+</form> -->
+
+
+
+<!--===============================================================================================-->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
